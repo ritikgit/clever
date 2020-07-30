@@ -33,6 +33,8 @@ You'll get ~49GB storage and ~31-33GB free storage after deploying the bot.
 
 **For non-service accounts method (if you want to use service accounts, skip this)**
 
+----------
+
 Without service accounts, you only can leech up to 750GB/day.
 
 
@@ -51,10 +53,11 @@ python3 generate_drive_token.py
 ```
 (Use `python` if `python3` doesn't work)
 - Now you have `credentials.json` and `token.pickle`
-- Upload `credentials.json` and `token.pickle` to the root of the repo, then skip to step 6. 
+- Upload `credentials.json` and `token.pickle` to the root of the repo, then skip to step 5. 
 
 (I haven't tested the non-service accounts method, if it's unusable, then use the service accounts one) 
 
+----------
 
 3. Rename your service account credentials into sequential numbers `(0.json, 1.json, ...)`, you can use this script https://t.me/pythonmirrorsupport/48805 and run it outside the `accounts` folder directory to do that.
 
