@@ -98,11 +98,11 @@ Note: You can limit maximum concurrent downloads by changing the value of MAX_CO
 
 12. You have €20 free credits, scale it by your requirements. These arguments are based on my testing, you can do experiment with it by yourself.
 
-- **512MB RAM and Shared CPU.** This configuration makes the bot active for more than three months. During my testing, it was capable of handling 1-3 processes, tar/unzip command isn't recommended. I think the shared CPU is gacha, you can get a good one or a bad one, I got a good CPU with Canada server. If you're lucky, you can run 4 processes with a little hiccup.
+- **512MB RAM and Shared CPU.** This configuration makes the bot active for more than three months (~3.33 months based om my calculation). During my testing, it was capable of handling 1-3 processes, tar/unzip command isn't recommended. I think the shared CPU is gacha, you can get a good one or a bad one, I got a good CPU with Canada server. If you're lucky, you can run 4 processes with a little hiccup.
 
-- **1GB RAM and 1 vCPU.** This configuration makes the bot active for more than one month. Smoother when handling 1-3 processes and maybe can handle 4 processes better than the one with shared CPU (it depends on the CPU, whether it's good or not), you can try tar/unzip command (but I haven't tested it personally, do it on your own risk).
+- **1GB RAM and 1 vCPU.** This configuration makes the bot active for more than one month (~1.38 months based on my calculation). Smoother when handling 1-3 processes and maybe can handle 4 processes better than the one with shared CPU (it depends on the CPU, whether it's good or not), you can try tar/unzip command (but I haven't tested it personally, do it on your own risk).
 
-- **2GB RAM and 2 vCPU.** This configuration makes the bot active for about 20 days. This was good for handling 4 processes based on my testing and it did great with a tar/unzip process.
+- **2GB RAM and 2 vCPU.** This configuration makes the bot active for about 20 days (~0.69 month or ~20.9 days based on my calculation). This was good for handling 4 processes based on my testing and it did great with a tar/unzip process.
 
 I didn't try the higher configuration, calculate it by yourself. Personally, 512MB one is enough for me since I don't leech files in bulk (many processes at a time). You can try from 512MB one first, if you didn't satisfy with it, scale your app to a higher configuration.
 
@@ -114,7 +114,7 @@ I didn't try the higher configuration, calculate it by yourself. Personally, 512
 
 16. Wait for the deployment. After it's done, the bot will be active in a moment.
 
-17. If you want to make more bot or your free credits has been zero, unlink your GitHub account from your Clever Cloud profile settings, then revoke Clever Cloud access from your GitHub settings > Applications. Finally, make a new account and then deploy a existing/new repo (based on your requirement).
+17. If you want to make more bot or your free credits has been zero, unlink your GitHub account from your Clever Cloud profile settings, then revoke Clever Cloud access from your GitHub settings > Applications. Finally, make a new account and then deploy an existing/new repo (based on your requirement).
 
 # Important messages from Magneto's repo
 - Original repo is https://github.com/lzzy12/python-aria-mirror-bot
