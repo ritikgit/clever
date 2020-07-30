@@ -58,8 +58,6 @@ python3 generate_drive_token.py
 
 3. Rename your service account credentials into sequential numbers `(0.json, 1.json, ...)`, you can use this script https://t.me/pythonmirrorsupport/48805 and run it outside the `accounts` folder directory to do that.
 
-3. Make a new blank file in the repo named `accounts/blank.txt` and commit it in order to make a new folder named `accounts`.
-
 4. Open `accounts` folder in the repo and upload your service accounts there. You can only upload 100 service account credentials per process (1 project has 100 service accounts), do it repeatedly if you want to upload more than 100 service account credentials.
 
 5. Open `config.env` in the root of the repo and edit it according these configs.
@@ -112,7 +110,7 @@ I didn't try the higher configuration, calculate it by yourself. Personally, 512
 
 15. Leave the port to `8080` and press `Next`.
 
-16. Wait for the deployment. After it's done, the bot will be active in a moment.
+16. Wait for the deployment. After it's done, the bot will be active in a moment. 
 
 17. If you want to make more bot or your free credits has been zero, unlink your GitHub account from your Clever Cloud profile settings, then revoke Clever Cloud access from your GitHub settings > Applications. Finally, make a new account and then deploy an existing/new repo (based on your requirement).
 
