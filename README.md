@@ -13,6 +13,8 @@ I'm not good at coding and git, so I'm sorry for untidy scripts and commits.
 
 Fork of https://github.com/magneto261290/magneto-python-aria
 
+Live test group: **@Pinkiechan**
+
 # What's the purpose of this fork?
 
 I found a free cloud apps hosting like Heroku named Clever Cloud. But Clever Cloud can only listen to 8080 port with Docker, so deploying with the original lzzy's repo is impossible.
