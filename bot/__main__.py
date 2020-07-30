@@ -14,6 +14,8 @@ from bot.helper.telegram_helper.message_utils import *
 from .helper.ext_utils.bot_utils import get_readable_file_size, get_readable_time
 from .helper.telegram_helper.filters import CustomFilters
 from .modules import authorize, list, cancel_mirror, mirror_status, mirror, clone, watch, delete
+from flask import Flask, request
+from flask_restful import Resource, Api
 
 
 @run_async
@@ -135,3 +137,14 @@ def main():
 
 
 main()
+app = Flask(__name__)
+api = Api(app)
+
+class Greeting (Resource):
+    def get(self):
+        return 'Hello World!'
+
+api.add_resource(Greeting, '/') # Route_1
+
+if __name__ == '__main__':
+    app.run('0.0.0.0','8080')
