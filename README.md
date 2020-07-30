@@ -31,9 +31,10 @@ You'll get ~49GB storage and ~31-33GB free storage after deploying the bot.
 
 2. (if you already have service accounts, skip this) If you want to use service accounts, follow the installation guide in https://github.com/Spazzlo/folderclone in order to make your service accounts, I think 1 project is enough (~75TB daily limit). If you don't have your own team drive, create it at https://td.fastio.me/. There'll be `accounts` folder with service account credentials inside. If you don't want to use service accounts, follow the steps below. 
 
+----------
+
 **For non-service accounts method (if you want to use service accounts, skip this)**
 
-----------
 
 Without service accounts, you only can leech up to 750GB/day.
 
