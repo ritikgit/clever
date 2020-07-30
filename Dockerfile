@@ -10,6 +10,8 @@ RUN apt-get -qq update && \
     apt-get -qq update && \
     apt-get -qq install -y p7zip-full p7zip-rar aria2 curl pv jq ffmpeg locales python3-lxml && \
     apt-get purge -y software-properties-common
+RUN pip3 install flask
+RUN pip3 install flask_restful
 
 COPY requirements.txt .
 COPY extract /usr/local/bin
@@ -23,6 +25,7 @@ COPY . .
 COPY netrc /root/.netrc
 RUN chmod +x aria.sh
 
+EXPOSE 8080
 CMD ["bash","start.sh"]
 
 
