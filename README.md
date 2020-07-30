@@ -72,7 +72,7 @@ python3 generate_drive_token.py
 - **OWNER_ID** : The Telegram user ID (not username) of the owner of the bot, send `/id` to **@MissRose_bot** if you don't know it.
 - **AUTO_DELETE_MESSAGE_DURATION** : Interval of time (in seconds), after which the bot deletes it's message (and command message) which is expected to be viewed instantly. Note: Set to -1 to never automatically delete messages. I suggest you to leave this.
 - **IS_TEAM_DRIVE** : (Optional field) Set to "True" if GDRIVE_FOLDER_ID is from a Team Drive else False or Leave it empty.
-- **USE_SERVICE_ACCOUNTS**: (Optional field) (Leave empty if unsure) Whether to use service accounts or not. "true" or "false" or just leave it empty.
+- **USE_SERVICE_ACCOUNTS**: (Optional field) (Leave empty if unsure) Whether to use service accounts or not. "True" or "False" or just leave it empty.
 - **INDEX_URL** : (Optional field) Refer to https://github.com/maple3142/GDIndex/ The URL should not have any trailing '/'
 - **API_KEY** : This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org DO NOT put this in quotes, you can also use **@UseTGXBot** instead.
 - **API_HASH** : This is to authenticate to your telegram account for downloading Telegram files. You can get this from https://my.telegram.org, you can also use **@UseTGXBot** instead.
